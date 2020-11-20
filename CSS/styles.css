@@ -1,0 +1,60 @@
+:root
+{
+    --primary-text-color: #212121;/* колір основного тексту */
+    --accent-color:  #2196F3;/* колір ховеру */
+    --accent-text-color: #757575;/* колір допоміжного тексту */
+    --background-color: #F5F4FA;/* колір допоміжного фону */
+    --white-color: #ffffff;/* білий */
+}
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+}
+/* ==================HEDER================== */
+.logo
+{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-color-heder
+{
+    color: var(--primary-text-color);
+}
+
+.heder
+{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+}
+
+.sait-nav-link
+{  
+    color: var(--primary-text-color);
+}
+
+.sait-nav-link:hover,
+.sait-nav-link:focus,
+.sait-nav-link-current
+{
+    color: var(--accent-color);
+}
+
+.adress-link
+{
+    
+    color: var(--accent-text-color);
+}
+
+.adress-link:hover,
+.adress-link:focus
+{
+    color: var(--accent-color);
+}
+/* ================END HEDER================ */
