@@ -5,11 +5,23 @@
     --accent-text-color: #757575;/* колір допоміжного тексту */
     --background-color: #F5F4FA;/* колір допоміжного фону */
     --white-color: #ffffff;/* білий */
+    --background-primery: #2F303A;
+
 }
 
 body
 {
     font-family: 'Roboto', sans-serif;
+    background: #ffffff;
+}
+.title
+{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.167;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
 /* ==================HEDER================== */
 .logo
@@ -46,15 +58,113 @@ body
     color: var(--accent-color);
 }
 
-.adress-link
+.adress-heder-link
 {
     
     color: var(--accent-text-color);
 }
 
-.adress-link:hover,
-.adress-link:focus
+.adress-heder-link:hover,
+.adress-heder-link:focus
 {
     color: var(--accent-color);
 }
 /* ================END HEDER================ */
+/* ==================HERO================== */
+.hero-section
+{
+    background: var(--background-primery);
+}
+.hero-title
+{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+}
+.hero-button
+{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+}
+/* ================END HERO================ */
+/* =============SPECIALIZATION============= */
+
+.specionalization-item-title
+{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color)
+}
+.specionalization-item-text
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+/* ===========END SPECIALIZATION=========== */
+/* ================COMMANND================ */
+.command
+{
+    background: #F5F4FA;
+}
+.command-list-name
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+.command-list-position
+{ 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.188;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+}
+/* ==============END COMMANND============== */
+/* ================FOOTER================ */
+.footer
+{
+    background: var(--background-primery);
+}
+.logo-footer
+{
+    color: var(--white-color);
+}
+.adress-street-link
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: var(--white-color);
+}
+.adress-footer-link
+{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* ==============END FOOTER============== */
